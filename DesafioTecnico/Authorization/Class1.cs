@@ -1,4 +1,4 @@
-﻿namespace Services
+﻿namespace Authorization
 {
     public class Class1
     {

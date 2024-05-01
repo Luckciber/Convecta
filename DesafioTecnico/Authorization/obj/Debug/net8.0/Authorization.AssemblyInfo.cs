@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("WebApp")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Authorization")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf2fca4ea8567f0cf6d74ecd45da4b031e497bba")]
-[assembly: System.Reflection.AssemblyProductAttribute("WebApp")]
-[assembly: System.Reflection.AssemblyTitleAttribute("WebApp")]
+[assembly: System.Reflection.AssemblyProductAttribute("Authorization")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Authorization")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
