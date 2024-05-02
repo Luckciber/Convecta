@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Services.Implementations
+namespace Services.Interfaces
 {
-    internal class Class1
+    public interface IRegionsService
     {
+        Task GetRegions();
+
+        Task GetRegionsWithProperties();
     }
 }

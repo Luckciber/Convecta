@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Services.Interfaces
 {
-    internal class Class1
+    public interface IAllPropertiesService
     {
+        Task GetAllProperties();
     }
 }
