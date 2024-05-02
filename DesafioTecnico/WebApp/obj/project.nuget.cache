@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "F2MNunmMA9etTAyoaIr2NuHU2Sz9be0cbaCksrTOk7XvF2cvwDdyvcr9VEWIs++DKg7NJaXUNmQNA5DvVVdGJw==",
+  "dgSpecHash": "S7q02JqdmZtM6I299ypwSGPmhM6nZMjut7H7wGw0h4bQEqNMIo/6iWmTGQCcp2KDMKWsd21knAj2VLbh80n32w==",
   "success": true,
   "projectFilePath": "C:\\dev\\DT\\Convecta\\DesafioTecnico\\WebApp\\WebApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Milton\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

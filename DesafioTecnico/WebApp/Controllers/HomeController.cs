@@ -1,20 +1,27 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using WebApp.Models;
+using Services.Interfaces;
+using Services.Implementations;
 
 namespace WebApp.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private ICountriesService _countriesService;
+        public HomeController(
+            ILogger<HomeController> logger,
+            ICountriesService countriesService
+            )
         {
             _logger = logger;
+            _countriesService = countriesService;
         }
 
         public IActionResult Index()
         {
+            _countriesService.GetCountries();
             return View();
         }
 
